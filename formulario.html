@@ -7,6 +7,15 @@
     <title>Formulário</title>
 </head>
 <body>
-    
+
+    <h2>Formulário com atributo nome</h2>
+    <form action="/action_page.php">
+        <label for="primeiro-nome">Primeiro nome:</label><br>
+        <input type="text" id="primeiro-nome" value="Fulano"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <p>Se você clicar no botão "Enviar", os dados do Formulário serão enviadps para uma página chamada "/action-page.js".</p>
+    <p>Note que o valor do campo "Primeiro nome" não seria enviado, pois o elemento <code>input</code> não possui o atributo <code>name</code>, definido</p>
 </body>
 </html>
